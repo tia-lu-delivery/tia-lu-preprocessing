@@ -22,7 +22,7 @@ Um tratamento cuidadoso e metódico assegura a integridade e a confiabilidade do
 
 ## ✨ Funcionalidades Implementadas
 
-A biblioteca `preprocessing_lib` foi construída de forma modular e encapsulada na classe principal `Preprocessing`. Ela oferece uma API simples e fluente (com encadeamento de métodos) para tratar os seguintes desafios:
+A biblioteca `preprocessing` foi construída de forma modular e encapsulada na classe principal `Preprocessing`. Ela oferece uma API simples e fluente (com encadeamento de métodos) para tratar os seguintes desafios:
 
 ### 1. Tratamento de Dados Ausentes (`MissingValueProcessor`)
 A presença de dados ausentes ou nulos (`None`/`NaN`) é um desafio comum. A biblioteca oferece estratégias flexíveis para lidar com eles:
@@ -47,8 +47,9 @@ O repositório está organizado da seguinte forma:
 
 ```
 .
-├── preprocessing_lib.py    # O módulo principal contendo todas as classes da biblioteca.
+├── preprocessing.py    # O módulo principal contendo todas as classes da biblioteca.
 ├── test_preprocessing.py   # O arquivo com os testes unitários para a biblioteca.
+├── food_statistics.py   # O arquivo contendo a classe de Statistics implementada no primeiro desafio
 └── README.md               # Este arquivo.
 ```
 
